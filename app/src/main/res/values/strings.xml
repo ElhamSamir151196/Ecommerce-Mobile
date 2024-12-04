@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">eCommerce</string>
+    <string name="title_activity_market__home">Market_HomeActivity</string>
+    <string name="cop_right">CopyRight to White Shark 2020</string>
+
+</resources>

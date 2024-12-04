@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Market_Show_All_ProductActivity">
+
+    <TableRow
+        android:id="@+id/header_Row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/view_id_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ID"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/view_name_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Product Name"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/view_category_of_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Catgory"
+            android:textStyle="bold"></TextView>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/firstRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ListView
+            android:id="@+id/list_view_id_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+        <ListView
+            android:id="@+id/list_view_name_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+        <ListView
+            android:id="@+id/list_view_product_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </TableRow>
+
+
+
+
+</TableLayout>

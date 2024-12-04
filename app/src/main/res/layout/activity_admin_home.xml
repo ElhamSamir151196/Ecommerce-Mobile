@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".Admin_homeActivity">
+
+    <Button
+        android:id="@+id/admin_add_market"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:text="Add Market"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/admin_show_markets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_add_market"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:text="Show Markets"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/admin_show_details_market"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_show_markets"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:text="Show Market Details"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    <Button
+        android:id="@+id/admin_delete_market"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_show_details_market"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:text="Delete Market"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/admin_update_market"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_delete_market"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:text="Update Market"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/admin_change_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_update_market"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:text="Change Admin Data"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:id="@+id/copy_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cop_right"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:textColor="@color/balck"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/copy_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cop_right"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:textColor="@color/balck"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

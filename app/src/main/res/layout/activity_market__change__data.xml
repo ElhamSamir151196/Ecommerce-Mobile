@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Market_Change_DataActivity">
+
+    <Button
+        android:id="@+id/market_add_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Add Product"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/market_delete_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Delete Product"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/market_add_product"
+        />
+
+    <Button
+        android:id="@+id/market_update_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/market_delete_product"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Update Product "
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/market_show_details_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/market_update_product"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Show Product Details"
+        android:textColor="@android:color/white"
+        />
+
+
+
+    <TextView
+        android:id="@+id/copy_right1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cop_right"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:textColor="@color/balck"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

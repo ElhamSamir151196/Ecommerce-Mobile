@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.metr.ecommerce">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".Admin_homeActivity" />
+        <activity android:name=".Admin_Add_marketActivity" />
+        <activity android:name=".Admin_Show_marketsActivity" />
+        <activity android:name=".Admin_Change_DataActivity" />
+        <activity android:name=".Admin_DeleteActivity" />
+        <activity android:name=".Admin_UpdateActivity" />
+        <activity android:name=".Admin_Show_Detils_MarketActivity" />
+        <activity android:name=".Market_CategoryActivity" />
+        <activity android:name=".Market_ProductActivity" />
+        <activity android:name=".Market_Change_DataActivity" />
+        <activity android:name=".Customer_HomeActivity" />
+        <activity android:name=".Market_HomeActivity" />
+        <activity android:name=".Market_Show_All_CategoryActivity" />
+        <activity android:name=".Market_Show_All_ProductActivity" />
+        <activity android:name=".Admin_Update_marketActivity" />
+        <activity android:name=".Admin_show_market_details_tableActivity"></activity>
+    </application>
+
+</manifest>

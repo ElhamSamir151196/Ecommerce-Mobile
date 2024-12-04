@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Update_marketActivity">
+
+    <TextView
+        android:id="@+id/admin_market_name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/admin_market_name_edit"
+        android:text="Market Name : "
+        />
+    <EditText
+        android:id="@+id/admin_market_name_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/admin_market_name_view"
+        android:layout_alignParentTop="true"
+
+        />
+
+    <TextView
+        android:id="@+id/admin_market_admin_name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/admin_market_admin_name_edit"
+        android:text="Market Amin Name  : "
+        android:layout_below="@+id/admin_market_name_view"
+        />
+    <EditText
+        android:id="@+id/admin_market_admin_name_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/admin_market_admin_name_view"
+        android:layout_below="@+id/admin_market_name_edit"
+
+
+        />
+    <TextView
+        android:id="@+id/admin_market_password_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/admin_market_password_edit"
+        android:text="Market password  : "
+        android:layout_below="@+id/admin_market_admin_name_view"
+        />
+    <EditText
+        android:id="@+id/admin_market_password_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/admin_market_password_view"
+        android:layout_below="@+id/admin_market_admin_name_edit"
+
+
+        />
+
+    <TextView
+        android:id="@+id/admin_market_e_mail_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/admin_market_e_mail_edit"
+        android:text="Market E-mail  : "
+        android:layout_below="@+id/admin_market_password_view"
+        />
+    <EditText
+        android:id="@+id/admin_market_e_mail_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/admin_market_e_mail_view"
+        android:layout_below="@+id/admin_market_password_edit"
+
+        />
+
+    <TextView
+        android:id="@+id/admin_market_describtion1_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/admin_market_describtion1_edit"
+        android:text="Market Amin Name  : "
+        android:layout_below="@+id/admin_market_e_mail_view"
+        />
+    <EditText
+        android:id="@+id/admin_market_describtion1_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/admin_market_describtion1_view"
+        android:layout_below="@+id/admin_market_e_mail_edit"
+
+        />
+
+    <Button
+        android:id="@+id/admin_market_update_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_market_describtion1_edit"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:text="Update Market"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:id="@+id/copy_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cop_right"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:textColor="@color/balck"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
